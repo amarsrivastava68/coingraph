@@ -1,6 +1,6 @@
 import { Avatar, Box, Stack, Text, VStack } from "@chakra-ui/react";
 import React from "react";
-const amar = "https://drive.google.com/file/d/1mnJ2Wwzor4uN8-yLpkj8xwSnBuE5n2AS/view?usp=sharing"
+import amar from "../assets/amar.jpg";
 
 const Footer = () => {
   return (
