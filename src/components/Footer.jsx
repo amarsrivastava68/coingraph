@@ -1,6 +1,6 @@
 import { Avatar, Box, Stack, Text, VStack } from "@chakra-ui/react";
 import React from "react";
-
+import amar from "../assets/amar.jpg";
 const avatarSrc = "https://avatars.githubusercontent.com/u/25058652";
 
 const Footer = () => {
@@ -26,7 +26,7 @@ const Footer = () => {
         </VStack>
 
         <VStack>
-          <Avatar boxSize={"28"} mt={["4", "0"]} src={avatarSrc} />
+          <Avatar boxSize={"28"} mt={["4", "0"]} src={amar} />
           <Text>Our Founder</Text>
         </VStack>
       </Stack>
