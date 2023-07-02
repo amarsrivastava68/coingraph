@@ -20,8 +20,8 @@ const Home = () => {
         }}
       >
         <Image
-          w={"full"}
-          h={"full"}
+          w={"half"}
+          h={"half"}
           objectFit={"contain"}
           src={btcSrc}
           filter={"grayscale(1)"}
