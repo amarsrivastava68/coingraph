@@ -28,7 +28,7 @@ const Home = () => {
         />
       </motion.div>
 
-      <Text
+   /*   <Text
         fontSize={"6xl"}
         textAlign={"center"}
         fontWeight={"thin"}
@@ -36,7 +36,7 @@ const Home = () => {
         mt={"-20"}
       >
         CoinGraph
-      </Text>
+      </Text> */
     </Box>
   );
 };
