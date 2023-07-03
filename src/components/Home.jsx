@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <Box bgColor={"blackAlpha.900"} w={"full"} h={"75vh"}>
+    <Box bgColor={"blackAlpha.900"} w={"full"} h={"55vh"}>
       <motion.div
         style={{
           height: "80vh",
@@ -29,7 +29,7 @@ const Home = () => {
       </motion.div>
 
       <Text
-        fontSize={"4xl"}
+        fontSize={"6xl"}
         textAlign={"center"}
         fontWeight={"thin"}
         color={"whiteAlpha.700"}
