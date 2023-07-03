@@ -11,7 +11,7 @@ const Home = () => {
           height: "80vh",
         }}
         animate={{
-          translateY: "20px",
+          translateY: "10px",
         }}
         transition={{
           duration: 2,
