@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <Box bgColor={"blackAlpha.900"} w={"full"} h={"55vh"}>
+    <Box bgColor={"blackAlpha.900"} w={"full"} h={"85vh"}>
       <motion.div
         style={{
-          height: "80vh",
+          height: "70vh",
         }}
         animate={{
-          translateY: "10px",
+          translateY: "5px",
         }}
         transition={{
           duration: 2,
