@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <Box bgColor={"blackAlpha.900"} w={"full"} h={"85vh"}>
+    <Box bgColor={"blackAlpha.900"} w={"full"} h={"75vh"}>
       <motion.div
         style={{
           height: "80vh",
@@ -20,8 +20,8 @@ const Home = () => {
         }}
       >
         <Image
-          w={"half"}
-          h={"half"}
+          w={"full"}
+          h={"full"}
           objectFit={"contain"}
           src={btcSrc}
           filter={"grayscale(1)"}
