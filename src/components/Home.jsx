@@ -37,9 +37,7 @@ const Home = () => {
       >
         Coingraph
       </Text> 
-      <Text>
-        CoinGraph
-      </Text>
+      
     </Box>
   );
 };
