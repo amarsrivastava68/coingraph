@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <HStack p={"4"} shadow={"base"} bgColor={"blackAlpha.900"}>
-      <Button variant={"unstyled"} color={"white"}>
+    <HStack p={"4"} shadow={"base"} bgColor={"blue.900"}>
+      <Button variant={"ghost"} color={"white"}  sx={{ _hover: { backgroundColor: 'white', color: 'black' } }}>
         <Link to="/">Home</Link>
       </Button>
-      <Button variant={"unstyled"} color={"white"}>
+      <Button variant={"ghost"} color={"white"}  sx={{ _hover: { backgroundColor: 'white', color: 'black' } }}>
         <Link to="/exchanges">Exchanges</Link>
       </Button>
-      <Button variant={"unstyled"} color={"white"}>
+      <Button variant={"ghost"} color={"white"}  sx={{ _hover: { backgroundColor: 'white', color: 'black' } }}>
         <Link to="/coins">Coins</Link>
       </Button>
     </HStack>
